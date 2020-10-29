@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+   
+    background-image: url("https://images.pexels.com/photos/273238/pexels-photo-273238.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+   
+    overflow: hidden;
+}
+
+.login-form{
+    margin-top: 6%;
+    position: absolute;
+    width: 480px;
+    height: 500px;
+    left: 380px;
+
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+}
+.login-form h2{
+    margin-left: 37%;
+        left: 205px;
+        
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    /* padding-bottom: 1%; */
+   
+    color: #000000;
+
+}
+.login-form input{
+    outline: none;
+    background: transparent;
+    border: 1px solid black;
+    width: 350px;
+    margin-left: 10%;
+    
+    height: 40px;
+    
+    /* margin-bottom: 3%;
+    margin-top: 2%; */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.login-form label{
+    
+    font-size: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 1%;
+   
+margin-left: 10%;
+    color: #000000;
+
+
+}
+.login-form input[type=submit]{
+    width: 350px;
+    height: 40px;
+    background-color: #309E21;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Montserrat;
+    line-height: 22px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    /* margin-top: 6%; */
+    
+}
