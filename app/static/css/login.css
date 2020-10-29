@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 body{
    
-    background-image: url("https://images.pexels.com/photos/1294261/pexels-photo-1294261.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-image: url("https://images.pexels.com/photos/273238/pexels-photo-273238.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
